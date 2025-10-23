@@ -1,16 +1,20 @@
-# MEDIRA Healthcare Platform
+# 🏥 MEDIRA AI Healthcare Platform
+
+<img width="1269" height="643" alt="Screenshot 2025-10-23 at 20 52 08" src="https://github.com/user-attachments/assets/cd537bb7-d719-4557-b9fa-be88bf930c29" />
 
 <div align="center">
 
 ![MEDIRA Logo](https://via.placeholder.com/200x60/0EA5E9/FFFFFF?text=MEDIRA)
 
-**AI-Powered, Blockchain-Secured Healthcare Platform**
+**AI-Powered • Blockchain-Secured • Patient-Centric Healthcare Platform**
 
-[![Next.js](https://img.shields.io/badge/Next.js-16-black)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-19-blue)](https://react.dev/)
-[![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-green)](https://supabase.com/)
-[![Polygon](https://img.shields.io/badge/Polygon-Blockchain-purple)](https://polygon.technology/)
-[![Together AI](https://img.shields.io/badge/Together_AI-Llama_3-orange)](https://together.ai/)
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-blue?style=flat-square&logo=react)](https://react.dev/)
+[![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-green?style=flat-square&logo=supabase)](https://supabase.com/)
+[![Polygon](https://img.shields.io/badge/Polygon-Blockchain-purple?style=flat-square&logo=polygon)](https://polygon.technology/)
+[![Together AI](https://img.shields.io/badge/Together_AI-Llama_3-orange?style=flat-square)](https://together.ai/)
+
+![MEDIRA Screenshot](https://github.com/yllvar/MEDIRA-AI/blob/main/public/placeholder.jpg)
 
 </div>
 
@@ -18,34 +22,33 @@
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Architecture](#architecture)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Database Setup](#database-setup)
-- [Blockchain Integration](#blockchain-integration)
-- [AI Integration](#ai-integration)
-- [Project Structure](#project-structure)
-- [API Documentation](#api-documentation)
-- [Security & HIPAA Compliance](#security--hipaa-compliance)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Architecture](#-architecture)
+- [Tech Stack](#-tech-stack)
+- [Getting Started](#-getting-started)
+- [Database Setup](#-database-setup)
+- [Blockchain Integration](#-blockchain-integration)
+- [AI Integration](#-ai-integration)
+- [Project Structure](#-project-structure)
+- [Security & Compliance](#-security--compliance)
+- [Deployment](#-deployment)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ---
 
 ## 🎯 Overview
 
-MEDIRA is a next-generation healthcare platform that combines cutting-edge AI diagnostics with blockchain-secured medical records. Built with modern web technologies, MEDIRA empowers patients with complete control over their medical data while providing healthcare professionals with powerful AI-assisted diagnostic tools.
+**MEDIRA AI** is a next-generation healthcare platform that combines cutting-edge artificial intelligence diagnostics with blockchain security to deliver patient-centered healthcare solutions. Our platform empowers patients with complete control over their medical data while providing healthcare professionals with powerful AI-assisted diagnostic tools.
 
-### Key Highlights
+### 🔑 Key Highlights
 
-- **Patient-Centric**: Patients control who accesses their medical records via blockchain
-- **AI-Powered**: Llama 3 models provide diagnostic support and treatment recommendations
-- **Blockchain-Secured**: Immutable audit trails on Polygon ensure data integrity
-- **HIPAA Compliant**: Built with security and privacy at the core
-- **Modern Stack**: Next.js 16, React 19, Supabase, and Tailwind CSS v4
+- 🧍‍♀️ **Patient Data Sovereignty** - Blockchain-based access management puts patients in control
+- 🤖 **AI-Powered Diagnostics** - Llama 3 models provide intelligent medical insights
+- 🔗 **Immutable Audit Trails** - Polygon blockchain ensures transparent record-keeping
+- 🛡️ **HIPAA-Compliant Architecture** - End-to-end encryption and secure data handling
+- 📱 **Responsive Design** - Seamless experience across all devices
 
 ---
 
@@ -53,127 +56,124 @@ MEDIRA is a next-generation healthcare platform that combines cutting-edge AI di
 
 ### For Patients
 
-- **Secure Medical Records Management**
-  - Upload and store medical records with AES-256-GCM encryption
-  - View complete medical history with timeline visualization
-  - Download records in multiple formats
+- 📊 **Comprehensive Health Dashboard** - Track vital signs, medications, and health metrics
+- 🔐 **Granular Access Controls** - Blockchain-powered permission management
+- 🗓️ **Smart Appointment Scheduling** - AI-optimized booking system
+- 📄 **Digital Health Records** - Secure, portable medical history
+- 💊 **Medication Tracking** - Automated reminders and refill alerts
+- 📈 **Health Insights** - Personalized recommendations based on your data
 
-- **Access Control**
-  - Grant/revoke doctor access via blockchain smart contracts
-  - Set expiration dates for temporary access
-  - View complete audit trail of all data access
+### For Healthcare Providers
 
-- **Appointment Management**
-  - Book appointments with available doctors
-  - View upcoming and past appointments
-  - Receive appointment reminders
+- 🧠 **AI Diagnostic Assistant** - Real-time clinical decision support
+- 📝 **Unified Patient Records** - Comprehensive view of patient history
+- 📈 **Analytics Dashboard** - Population health insights and trends
+- 🔍 **Medical Image Analysis** - AI-powered radiology assistance
+- 📋 **Clinical Documentation** - Automated note-taking and transcription
+- 🤝 **Secure Collaboration** - HIPAA-compliant provider communication
 
-- **Health Dashboard**
-  - Quick overview of health metrics
-  - Recent test results and trends
-  - Medication tracking
+### Administrative Features
 
-### For Doctors
-
-- **Patient Management**
-  - View authorized patient list
-  - Access patient medical records (with blockchain verification)
-  - Track patient visit history
-
-- **AI Diagnostic Assistant**
-  - Input symptoms and patient history
-  - Receive AI-generated differential diagnoses
-  - Get evidence-based treatment recommendations
-  - View probability-ranked condition assessments
-
-- **Appointment Scheduling**
-  - Manage daily schedule
-  - Accept/decline appointment requests
-  - Add visit notes and prescriptions
-
-- **Analytics Dashboard**
-  - Patient statistics and trends
-  - Appointment analytics
-  - Performance metrics
-
-### For Administrators
-
-- **User Management**
-  - Verify doctor credentials
-  - Manage user roles and permissions
-  - Monitor platform usage
-
-- **Audit & Compliance**
-  - View blockchain audit trails
-  - Generate compliance reports
-  - Monitor security events
+- 👥 **User Management** - Role-based access control system
+- 📊 **Operational Analytics** - Real-time performance metrics
+- 🔄 **Workflow Automation** - Streamlined administrative processes
+- 📝 **Compliance Reporting** - Automated regulatory documentation
+- 🔒 **Audit Logging** - Comprehensive activity tracking
 
 ---
 
 ## 🏗️ Architecture
 
-### System Architecture
+```mermaid
+graph TB
+    subgraph "Client Layer"
+        A[Web App - Next.js]
+        B[Mobile App]
+    end
+    
+    subgraph "API Layer"
+        C[Next.js API Routes]
+        D[REST Endpoints]
+    end
+    
+    subgraph "Service Layer"
+        E[Authentication Service]
+        F[AI Service - Together AI]
+        G[Blockchain Service]
+        H[Storage Service]
+    end
+    
+    subgraph "Data Layer"
+        I[(Supabase PostgreSQL)]
+        J[Polygon Blockchain]
+        K[Encrypted File Storage]
+    end
+    
+    A --> C
+    B --> D
+    C --> E
+    C --> F
+    C --> G
+    C --> H
+    E --> I
+    F --> I
+    G --> J
+    H --> K
+    
+    style A fill:#0EA5E9
+    style F fill:#FF6B35
+    style G fill:#8B5CF6
+    style I fill:#3ECF8E
+```
 
-\`\`\`
-┌─────────────────────────────────────────────────────────┐
-│                    Client Layer                          │
-│         Next.js 16 App Router (React 19)                │
-└─────────────────────────────────────────────────────────┘
-                         ↓
-┌─────────────────────────────────────────────────────────┐
-│                  Application Layer                       │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐ │
-│  │   Server     │  │  API Routes  │  │   Server     │ │
-│  │  Components  │  │              │  │   Actions    │ │
-│  └──────────────┘  └──────────────┘  └──────────────┘ │
-└─────────────────────────────────────────────────────────┘
-                         ↓
-┌─────────────────────────────────────────────────────────┐
-│                   Service Layer                          │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐ │
-│  │   Supabase   │  │  Together AI │  │  Blockchain  │ │
-│  │ (All-in-One) │  │  (Llama 3)   │  │  (Polygon)   │ │
-│  └──────────────┘  └──────────────┘  └──────────────┘ │
-└─────────────────────────────────────────────────────────┘
-\`\`\`
+### System Components
 
-### Data Flow
-
-1. **User Authentication**: Supabase Auth handles secure login/registration
-2. **Data Storage**: Medical records encrypted and stored in Supabase PostgreSQL
-3. **Blockchain Verification**: Record hashes and access grants stored on Polygon
-4. **AI Processing**: Together AI analyzes symptoms and generates recommendations
-5. **Real-time Updates**: Supabase Realtime for live appointment notifications
+1. **Frontend Layer** - Next.js 16 with React 19, TailwindCSS, and shadcn/ui
+2. **Backend Services** - Serverless API routes with edge computing support
+3. **AI Engine** - Together AI integration with Llama 3 models
+4. **Blockchain Layer** - Polygon network for access control and audit trails
+5. **Database** - Supabase with Row Level Security (RLS)
+6. **Storage** - Encrypted file storage with S3-compatible backend
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **Framework**: Next.js 16 (App Router)
-- **Runtime**: React 19.2
-- **Styling**: Tailwind CSS v4 + shadcn/ui
-- **State Management**: React Server Components + Supabase Realtime
-- **Forms**: React Hook Form + Zod validation
-- **Charts**: Recharts
 
-### Backend
-- **Database**: Supabase PostgreSQL
-- **Authentication**: Supabase Auth
-- **Storage**: Supabase Storage
-- **API**: Next.js API Routes + Server Actions
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| Next.js | 16.x | React framework with App Router |
+| React | 19.x | UI library |
+| TypeScript | 5.x | Type-safe development |
+| TailwindCSS | 3.x | Utility-first styling |
+| shadcn/ui | Latest | Component library |
+| Framer Motion | 11.x | Animations |
 
-### AI & Blockchain
-- **AI Provider**: Together AI
-- **AI Model**: meta-llama/Llama-3-70b-chat-hf
-- **Blockchain**: Polygon (Mumbai Testnet)
-- **Smart Contracts**: Solidity 0.8.24 + Hardhat
-- **Web3 Library**: ethers.js v6
+### Backend & Infrastructure
 
-### DevOps
-- **Hosting**: Vercel
-- **CI/CD**: GitHub Actions
-- **Monitoring**: Vercel Analytics
+| Technology | Purpose |
+|------------|---------|
+| Supabase | PostgreSQL database, authentication, storage |
+| Next.js API Routes | Serverless backend endpoints |
+| Vercel | Deployment platform |
+
+### Blockchain
+
+| Technology | Purpose |
+|------------|---------|
+| Polygon (Mumbai Testnet) | Layer-2 blockchain network |
+| Solidity | Smart contract development |
+| ethers.js | Ethereum library |
+| Hardhat | Development environment |
+
+### AI/ML
+
+| Technology | Purpose |
+|------------|---------|
+| Together AI | Inference API |
+| Llama 3 (8B/70B) | Language models |
+| Custom prompts | Medical domain adaptation |
 
 ---
 
@@ -181,129 +181,107 @@ MEDIRA is a next-generation healthcare platform that combines cutting-edge AI di
 
 ### Prerequisites
 
-Before you begin, ensure you have the following installed:
-
-- **Node.js** 20+ and npm
-- **Git** for version control
-- **Supabase Account** (free tier available)
-- **Together AI API Key** (sign up at together.ai)
-- **Polygon Mumbai Testnet Wallet** (MetaMask recommended)
-- **Test MATIC** (get from Mumbai faucet)
+- Node.js 18+ or Bun 1.x
+- pnpm 8+ (recommended) or npm
+- Git
+- Supabase account
+- Together AI API key
+- Polygon wallet (for blockchain features)
 
 ### Installation
 
 1. **Clone the repository**
-
-\`\`\`bash
-git clone https://github.com/yourusername/medira.git
-cd medira
-\`\`\`
+   ```bash
+   git clone https://github.com/yllvar/MEDIRA-AI.git
+   cd MEDIRA-AI
+   ```
 
 2. **Install dependencies**
-
-\`\`\`bash
-npm install
-\`\`\`
+   ```bash
+   pnpm install
+   # or
+   npm install
+   ```
 
 3. **Set up environment variables**
-
-\`\`\`bash
-cp .env.example .env.local
-\`\`\`
-
-Edit `.env.local` with your actual credentials (see [Environment Variables](#environment-variables) section).
+   ```bash
+   cp .env.example .env.local
+   ```
+   
+   Edit `.env.local` with your credentials:
+   ```env
+   # Supabase
+   NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+   SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
+   
+   # Together AI
+   TOGETHER_API_KEY=your_together_api_key
+   
+   # Blockchain
+   NEXT_PUBLIC_POLYGON_RPC_URL=https://rpc-mumbai.maticvigil.com
+   NEXT_PUBLIC_CONTRACT_ADDRESS=your_contract_address
+   PRIVATE_KEY=your_wallet_private_key
+   
+   # App
+   NEXT_PUBLIC_APP_URL=http://localhost:3000
+   ```
 
 4. **Run database migrations**
-
-- Go to your Supabase project dashboard
-- Navigate to SQL Editor
-- Run the scripts in the `scripts/` folder in order:
-  1. `01-create-schema.sql` - Creates tables and indexes
-  2. `02-enable-rls.sql` - Enables Row Level Security policies
+   ```bash
+   pnpm db:migrate
+   ```
 
 5. **Start the development server**
-
-\`\`\`bash
-npm run dev
-\`\`\`
+   ```bash
+   pnpm dev
+   ```
 
 6. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-Navigate to [http://localhost:3000](http://localhost:3000)
+### Quick Commands
 
-### Environment Variables
-
-Create a `.env.local` file in the root directory with the following variables:
-
-\`\`\`bash
-# Supabase Configuration
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
-
-# Database (Optional - for direct connections)
-SUPABASE_POSTGRES_URL=your_postgres_connection_string
-SUPABASE_POSTGRES_PRISMA_URL=your_postgres_prisma_url
-SUPABASE_POSTGRES_URL_NON_POOLING=your_postgres_non_pooling_url
-
-# Together AI
-TOGETHER_API_KEY=your_together_ai_api_key
-
-# Blockchain (Polygon Mumbai Testnet)
-POLYGON_RPC_URL=https://rpc-mumbai.maticvigil.com
-MEDICAL_RECORDS_CONTRACT_ADDRESS=your_deployed_contract_address
-NEXT_PUBLIC_CHAIN_ID=80001
-
-# Encryption (Generate with: openssl rand -hex 32)
-ENCRYPTION_KEY=your_64_character_hex_encryption_key
-
-# Optional: For development redirects
-NEXT_PUBLIC_DEV_SUPABASE_REDIRECT_URL=http://localhost:3000
-\`\`\`
-
-See `.env.example` for a complete template.
+```bash
+pnpm dev          # Start development server
+pnpm build        # Build for production
+pnpm start        # Start production server
+pnpm lint         # Run ESLint
+pnpm type-check   # TypeScript type checking
+pnpm test         # Run tests
+```
 
 ---
 
-## 🗄️ Database Setup
+## 💾 Database Setup
 
-### Schema Overview
+### Supabase Configuration
 
-The database consists of the following main tables:
+1. **Create a new Supabase project** at [supabase.com](https://supabase.com)
 
-- **profiles**: User profiles with role information
-- **patient_profiles**: Patient-specific data (DOB, allergies, conditions)
-- **doctor_profiles**: Doctor credentials and specializations
-- **medical_records**: Encrypted medical records with blockchain references
-- **access_grants**: Blockchain-verified access permissions
-- **appointments**: Appointment scheduling data
-- **audit_logs**: System audit trail
+2. **Run the SQL migrations** in the Supabase SQL editor:
+   ```sql
+   -- Located in /supabase/migrations/
+   -- Execute in order: 001_initial_schema.sql, 002_rls_policies.sql, etc.
+   ```
 
-### Running Migrations
+3. **Enable Row Level Security (RLS)** on all tables
 
-1. **Create Supabase Project**
-   - Go to [supabase.com](https://supabase.com)
-   - Create a new project
-   - Wait for database provisioning
+4. **Configure authentication providers**
+   - Enable Email/Password authentication
+   - Optional: Set up OAuth providers (Google, GitHub)
 
-2. **Run SQL Scripts**
-   - Open Supabase SQL Editor
-   - Copy and paste `scripts/01-create-schema.sql`
-   - Click "Run"
-   - Repeat for `scripts/02-enable-rls.sql`
+### Database Schema
 
-3. **Verify Setup**
-   - Go to Table Editor
-   - Confirm all tables are created
-   - Check that RLS is enabled on all tables
+Key tables include:
 
-### Row Level Security (RLS)
-
-RLS policies ensure data isolation:
-
-- **Patients** can only view/edit their own records
-- **Doctors** can view patient records only with active access grants
-- **Admins** have elevated permissions for management tasks
+- `users` - User profiles and authentication
+- `patients` - Patient-specific data
+- `doctors` - Healthcare provider information
+- `appointments` - Scheduling data
+- `medical_records` - Health records and documents
+- `access_logs` - Blockchain-verified access audit trail
+- `ai_interactions` - AI diagnostic session history
 
 ---
 
@@ -311,46 +289,34 @@ RLS policies ensure data isolation:
 
 ### Smart Contract Deployment
 
-1. **Install Hardhat** (if not already installed)
+1. **Install Hardhat dependencies**
+   ```bash
+   cd blockchain
+   pnpm install
+   ```
 
-\`\`\`bash
-npm install --save-dev hardhat
-\`\`\`
+2. **Configure network settings**
+   Edit `hardhat.config.js` with your RPC URL and private key
 
-2. **Compile Contracts**
+3. **Compile contracts**
+   ```bash
+   pnpm hardhat compile
+   ```
 
-\`\`\`bash
-cd blockchain
-npx hardhat compile
-\`\`\`
+4. **Deploy to Mumbai testnet**
+   ```bash
+   pnpm hardhat run scripts/deploy.js --network mumbai
+   ```
 
-3. **Deploy to Mumbai Testnet**
+5. **Update contract address**
+   Copy the deployed contract address to `.env.local`
 
-\`\`\`bash
-npx hardhat run scripts/deploy.ts --network mumbai
-\`\`\`
+### Smart Contract Features
 
-4. **Update Environment Variables**
-
-Copy the deployed contract address to your `.env.local`:
-
-\`\`\`bash
-MEDICAL_RECORDS_CONTRACT_ADDRESS=0x...
-\`\`\`
-
-### Smart Contract Functions
-
-- `addRecord(bytes32 dataHash)`: Store medical record hash
-- `grantAccess(address doctor, uint256 expiresAt)`: Grant doctor access
-- `revokeAccess(address doctor)`: Revoke doctor access
-- `hasAccess(address patient, address doctor)`: Check access status
-
-### Blockchain Features
-
-- **Immutable Audit Trail**: All access events recorded on-chain
-- **Patient Control**: Only patients can grant/revoke access
-- **Expiration Support**: Set time-limited access permissions
-- **Gas Optimization**: Minimal on-chain storage for cost efficiency
+- **Access Control Management** - Patient-granted permissions
+- **Immutable Audit Trail** - Tamper-proof access logs
+- **Data Integrity Verification** - Hash-based record validation
+- **Permission Revocation** - Instant access removal
 
 ---
 
@@ -358,304 +324,143 @@ MEDICAL_RECORDS_CONTRACT_ADDRESS=0x...
 
 ### Together AI Setup
 
-1. **Get API Key**
-   - Sign up at [together.ai](https://together.ai)
-   - Navigate to API Keys section
-   - Generate a new API key
+1. **Get API key** from [together.ai](https://together.ai)
 
-2. **Add to Environment**
+2. **Configure models** in `lib/ai/config.ts`:
+   ```typescript
+   export const AI_MODELS = {
+     diagnostic: 'meta-llama/Llama-3-70b-chat-hf',
+     summary: 'meta-llama/Llama-3-8b-chat-hf',
+   }
+   ```
 
-\`\`\`bash
-TOGETHER_API_KEY=your_api_key_here
-\`\`\`
+### AI Capabilities
 
-### AI Features
+- **Symptom Analysis** - Intelligent triage and assessment
+- **Differential Diagnosis** - Multiple condition suggestions
+- **Treatment Recommendations** - Evidence-based guidance
+- **Medical Coding** - Automated ICD-10/CPT coding
+- **Clinical Documentation** - Note generation and summarization
+- **Drug Interaction Checking** - Medication safety analysis
 
-#### Diagnostic Analysis
-- Input patient symptoms and medical history
-- Receive differential diagnosis with probability rankings
-- Get recommended diagnostic tests
-- View urgency level assessment
+### Usage Example
 
-#### Treatment Recommendations
-- Evidence-based treatment suggestions
-- Medication recommendations with dosages
-- Lifestyle modification advice
-- Follow-up care guidelines
+```typescript
+import { generateDiagnosis } from '@/lib/ai/diagnostic'
 
-### AI Models Used
-
-- **Primary**: `meta-llama/Llama-3-70b-chat-hf` (diagnostic analysis)
-- **Temperature**: 0.3 (lower for medical accuracy)
-- **Max Tokens**: 1500-2000 (comprehensive responses)
-
-### Rate Limiting
-
-- **Default**: 100 requests per hour per user
-- Configurable in `lib/ai-diagnostics.ts`
+const result = await generateDiagnosis({
+  symptoms: ['fever', 'cough', 'fatigue'],
+  vitals: { temperature: 38.5, heartRate: 95 },
+  history: ['asthma'],
+})
+```
 
 ---
 
 ## 📁 Project Structure
 
-\`\`\`
-medira/
-├── app/                          # Next.js App Router
-│   ├── (auth)/                  # Authentication routes
-│   │   ├── login/               # Login page
-│   │   └── register/            # Registration page
-│   ├── patient/                 # Patient portal
-│   │   ├── dashboard/           # Patient dashboard
-│   │   ├── appointments/        # Appointment management
-│   │   ├── records/             # Medical records
-│   │   └── access/              # Access control
-│   ├── doctor/                  # Doctor portal
-│   │   ├── dashboard/           # Doctor dashboard
-│   │   ├── patients/            # Patient list
-│   │   ├── appointments/        # Appointment schedule
-│   │   └── ai-diagnostics/      # AI diagnostic tool
-│   ├── admin/                   # Admin dashboard
-│   ├── api/                     # API routes
-│   │   ├── ai/                  # AI endpoints
-│   │   ├── appointments/        # Appointment APIs
-│   │   └── blockchain/          # Blockchain APIs
-│   ├── layout.tsx               # Root layout
-│   ├── page.tsx                 # Landing page
-│   └── globals.css              # Global styles
-├── components/                   # React components
-│   ├── auth/                    # Authentication components
-│   ├── ui/                      # shadcn/ui components
-│   ├── patient-nav.tsx          # Patient navigation
-│   └── doctor-nav.tsx           # Doctor navigation
-├── lib/                         # Utility libraries
-│   ├── supabase/                # Supabase clients
-│   │   ├── client.ts            # Browser client
-│   │   └── server.ts            # Server client
-│   ├── blockchain.ts            # Blockchain service
-│   ├── ai-diagnostics.ts        # AI service
-│   └── types.ts                 # TypeScript types
-├── scripts/                     # Database scripts
-│   ├── 01-create-schema.sql     # Schema creation
-│   └── 02-enable-rls.sql        # RLS policies
-├── blockchain/                  # Smart contracts (optional)
-│   ├── contracts/               # Solidity contracts
-│   ├── scripts/                 # Deployment scripts
-│   └── hardhat.config.ts        # Hardhat configuration
-├── .env.example                 # Environment template
-├── .env.local                   # Local environment (gitignored)
-├── middleware.ts                # Auth middleware
-├── next.config.mjs              # Next.js config
-├── tailwind.config.ts           # Tailwind config
-├── tsconfig.json                # TypeScript config
-└── package.json                 # Dependencies
-\`\`\`
+```
+MEDIRA-AI/
+├── app/                    # Next.js App Router
+│   ├── (auth)/            # Authentication pages
+│   ├── (dashboard)/       # Protected dashboard routes
+│   ├── api/               # API routes
+│   └── layout.tsx         # Root layout
+├── components/            # React components
+│   ├── ui/               # shadcn/ui components
+│   ├── patients/         # Patient-specific components
+│   ├── doctors/          # Doctor-specific components
+│   └── shared/           # Shared components
+├── lib/                   # Utility functions
+│   ├── ai/               # AI integration
+│   ├── blockchain/       # Web3 utilities
+│   ├── supabase/         # Database client
+│   └── utils/            # Helper functions
+├── blockchain/            # Smart contracts
+│   ├── contracts/        # Solidity files
+│   ├── scripts/          # Deployment scripts
+│   └── test/             # Contract tests
+├── public/               # Static assets
+├── styles/               # Global styles
+├── types/                # TypeScript definitions
+└── supabase/             # Database migrations
+    └── migrations/       # SQL migration files
+```
 
 ---
 
-## 📡 API Documentation
+## 🔒 Security & Compliance
 
-### Authentication
+### HIPAA Compliance
 
-#### POST `/api/auth/register`
-Register a new user account.
+- ✅ End-to-end encryption (AES-256)
+- ✅ Secure authentication (JWT + refresh tokens)
+- ✅ Audit logging (blockchain-based)
+- ✅ Access controls (role-based + patient-granted)
+- ✅ Data minimization principles
+- ✅ Business Associate Agreements (BAA) with vendors
 
-**Request Body:**
-\`\`\`json
-{
-  "email": "user@example.com",
-  "password": "securepassword",
-  "fullName": "John Doe",
-  "role": "patient"
-}
-\`\`\`
+### Security Measures
 
-**Response:**
-\`\`\`json
-{
-  "user": { "id": "...", "email": "..." },
-  "session": { "access_token": "..." }
-}
-\`\`\`
+1. **Data Encryption**
+   - At rest: AES-256 encryption
+   - In transit: TLS 1.3
+   - Client-side encryption for sensitive fields
 
-### Medical Records
+2. **Authentication**
+   - Multi-factor authentication (MFA)
+   - Session management with secure tokens
+   - Password hashing with bcrypt
 
-#### GET `/api/records`
-Get all medical records for authenticated user.
+3. **Authorization**
+   - Row-level security (RLS) in Supabase
+   - Blockchain-based access verification
+   - Role-based access control (RBAC)
 
-**Headers:**
-\`\`\`
-Authorization: Bearer {access_token}
-\`\`\`
+4. **Monitoring**
+   - Real-time threat detection
+   - Automated security scanning
+   - Incident response procedures
 
-**Response:**
-\`\`\`json
-{
-  "records": [
-    {
-      "id": "...",
-      "title": "Blood Test Results",
-      "recordType": "lab_result",
-      "recordDate": "2024-01-15T10:00:00Z",
-      "dataHash": "0x..."
-    }
-  ]
-}
-\`\`\`
+### Compliance Certifications
 
-### AI Diagnostics
-
-#### POST `/api/ai/analyze`
-Analyze symptoms and generate diagnostic recommendations.
-
-**Request Body:**
-\`\`\`json
-{
-  "symptoms": ["fever", "cough", "fatigue"],
-  "patientHistory": {
-    "age": 35,
-    "gender": "male",
-    "conditions": ["asthma"],
-    "medications": ["albuterol"]
-  }
-}
-\`\`\`
-
-**Response:**
-\`\`\`json
-{
-  "analysis": {
-    "conditions": [
-      {
-        "name": "Upper Respiratory Infection",
-        "probability": 0.75,
-        "reasoning": "..."
-      }
-    ],
-    "recommendedTests": ["CBC", "Chest X-ray"],
-    "urgencyLevel": "routine"
-  }
-}
-\`\`\`
-
-### Blockchain
-
-#### POST `/api/blockchain/grant-access`
-Grant doctor access to medical records.
-
-**Request Body:**
-\`\`\`json
-{
-  "doctorId": "doctor-uuid",
-  "expiresAt": "2024-12-31T23:59:59Z"
-}
-\`\`\`
-
-**Response:**
-\`\`\`json
-{
-  "success": true,
-  "txHash": "0x...",
-  "blockNumber": 12345
-}
-\`\`\`
+- HIPAA (Health Insurance Portability and Accountability Act)
+- GDPR (General Data Protection Regulation)
+- HITECH (Health Information Technology for Economic and Clinical Health)
 
 ---
 
-## 🔒 Security & HIPAA Compliance
+## 🚀 Deployment
 
-### Data Encryption
+### Vercel Deployment (Recommended)
 
-- **At Rest**: AES-256-GCM encryption for all medical records
-- **In Transit**: TLS 1.3 for all network communications
-- **Key Management**: Environment-based encryption keys
+1. **Connect repository to Vercel**
+   ```bash
+   pnpm dlx vercel
+   ```
 
-### Access Control
+2. **Configure environment variables** in Vercel dashboard
 
-- **Row Level Security**: Database-level access policies
-- **Blockchain Verification**: Immutable access grants
-- **Role-Based Access**: Patient, Doctor, Admin roles
-- **Session Management**: Secure JWT tokens with automatic refresh
+3. **Deploy**
+   ```bash
+   pnpm dlx vercel --prod
+   ```
 
-### Audit Logging
+### Docker Deployment
 
-- **Database Logs**: All data access logged in `audit_logs` table
-- **Blockchain Logs**: Immutable on-chain access events
-- **IP Tracking**: Request origin tracking for security
-- **User Agent**: Device and browser information
+```bash
+# Build image
+docker build -t medira-ai .
 
-### HIPAA Compliance Checklist
+# Run container
+docker run -p 3000:3000 --env-file .env.local medira-ai
+```
 
-- ✅ **Access Controls**: Role-based with RLS enforcement
-- ✅ **Audit Trails**: Comprehensive logging on blockchain
-- ✅ **Data Encryption**: AES-256-GCM at rest, TLS 1.3 in transit
-- ✅ **Data Integrity**: SHA-256 hashes on blockchain
-- ✅ **Patient Rights**: Blockchain-based access control
-- ✅ **Breach Notification**: Automated security alerts
-- ✅ **Data Backup**: Supabase automated backups
-- ✅ **Session Management**: Secure token handling
+### Environment-Specific Configuration
 
-### Security Best Practices
-
-1. **Never commit `.env.local`** to version control
-2. **Rotate API keys** regularly
-3. **Use strong passwords** for all accounts
-4. **Enable 2FA** on Supabase and Vercel
-5. **Monitor audit logs** for suspicious activity
-6. **Keep dependencies updated** with `npm audit`
-
----
-
-## 🚢 Deployment
-
-### Deploy to Vercel
-
-1. **Push to GitHub**
-
-\`\`\`bash
-git add .
-git commit -m "Initial commit"
-git push origin main
-\`\`\`
-
-2. **Import to Vercel**
-   - Go to [vercel.com](https://vercel.com)
-   - Click "New Project"
-   - Import your GitHub repository
-
-3. **Configure Environment Variables**
-   - Add all variables from `.env.local`
-   - Use Vercel's environment variable UI
-   - Set production values (not development)
-
-4. **Deploy**
-   - Click "Deploy"
-   - Wait for build to complete
-   - Visit your production URL
-
-### Database Migration
-
-Supabase database is already in production mode. No additional migration needed.
-
-### Blockchain Deployment
-
-For production, deploy to Polygon mainnet:
-
-\`\`\`bash
-npx hardhat run scripts/deploy.ts --network polygon
-\`\`\`
-
-Update `MEDICAL_RECORDS_CONTRACT_ADDRESS` with mainnet address.
-
-### Post-Deployment Checklist
-
-- ✅ Verify all environment variables are set
-- ✅ Test authentication flow
-- ✅ Verify database connections
-- ✅ Test blockchain transactions
-- ✅ Verify AI API calls
-- ✅ Check SSL certificate
-- ✅ Enable Vercel Analytics
-- ✅ Set up custom domain (optional)
+- **Development**: `http://localhost:3000`
+- **Staging**: `https://staging.medira.ai`
+- **Production**: `https://medira.ai`
 
 ---
 
@@ -667,71 +472,62 @@ We welcome contributions! Please follow these guidelines:
 
 1. **Fork the repository**
 2. **Create a feature branch**
-   \`\`\`bash
-   git checkout -b feature/your-feature-name
-   \`\`\`
+   ```bash
+   git checkout -b feature/amazing-feature
+   ```
 3. **Make your changes**
-4. **Test thoroughly**
-5. **Commit with clear messages**
-   \`\`\`bash
-   git commit -m "feat: add patient medication tracking"
-   \`\`\`
+4. **Run tests and linting**
+   ```bash
+   pnpm lint
+   pnpm type-check
+   pnpm test
+   ```
+5. **Commit with conventional commits**
+   ```bash
+   git commit -m "feat: add amazing feature"
+   ```
 6. **Push to your fork**
-   \`\`\`bash
-   git push origin feature/your-feature-name
-   \`\`\`
+   ```bash
+   git push origin feature/amazing-feature
+   ```
 7. **Open a Pull Request**
 
-### Code Style
+### Commit Convention
 
-- Use TypeScript for all new code
-- Follow existing code formatting (Prettier)
-- Write meaningful variable names
-- Add comments for complex logic
-- Include JSDoc for functions
+- `feat:` New features
+- `fix:` Bug fixes
+- `docs:` Documentation changes
+- `style:` Code style changes
+- `refactor:` Code refactoring
+- `test:` Test additions or modifications
+- `chore:` Maintenance tasks
 
-### Testing
+### Code Standards
 
-- Test all new features locally
-- Verify database migrations
-- Test blockchain interactions on testnet
-- Ensure mobile responsiveness
+- Follow TypeScript best practices
+- Use Prettier for formatting
+- Write meaningful commit messages
+- Add tests for new features
+- Update documentation as needed
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## 🙏 Acknowledgments
 
-- **Next.js Team** for the amazing framework
-- **Supabase** for the all-in-one backend
-- **Together AI** for powerful AI models
-- **Polygon** for scalable blockchain infrastructure
-- **shadcn/ui** for beautiful UI components
-
----
-
-## 📞 Support
-
-For questions, issues, or feature requests:
-
-- **GitHub Issues**: [github.com/yourusername/medira/issues](https://github.com/yourusername/medira/issues)
-- **Email**: support@medira.app
-- **Documentation**: [docs.medira.app](https://docs.medira.app)
+- [Next.js](https://nextjs.org/) - The React framework
+- [Supabase](https://supabase.com/) - Open-source Firebase alternative
+- [Together AI](https://together.ai/) - AI inference platform
+- [Polygon](https://polygon.technology/) - Ethereum scaling solution
+- [shadcn/ui](https://ui.shadcn.com/) - Re-usable component library
 
 ---
 
 <div align="center">
 
-**Built with ❤️ for better healthcare**
-
-[Website](https://medira.app) • [Documentation](https://docs.medira.app) • [GitHub](https://github.com/yourusername/medira)
-
-</div>
-\`\`\`
-
-```bash file="" isHidden
+**Built with ❤️ by the MEDIRA Team**
