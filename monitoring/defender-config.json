@@ -1,0 +1,39 @@
+{
+  "contracts": {
+    "MedicalRecords": {
+      "address": "{{DEPLOYED_ADDRESS}}",
+      "abi": "MedicalRecordsOptimized",
+      "monitors": [
+        {
+          "eventName": "ContractPaused",
+          "notificationChannels": ["email", "slack"]
+        },
+        {
+          "eventName": "TimeLockUpdated",
+          "notificationChannels": ["email"]
+        }
+      ]
+    },
+    "ConsentManagement": {
+      "address": "{{DEPLOYED_ADDRESS}}",
+      "abi": "ConsentManagementOptimized",
+      "monitors": [
+        {
+          "eventName": "ContractPaused",
+          "notificationChannels": ["email", "slack"]
+        },
+        {
+          "eventName": "MinDurationUpdated",
+          "notificationChannels": ["email"]
+        }
+      ]
+    }
+  },
+  "healthChecks": {
+    "interval": 3600,
+    "checks": [
+      "contractPausedStatus",
+      "ownerAddress"
+    ]
+  }
+}
